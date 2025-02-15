@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Planner</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+
+    <plurals name="more_events">
+        <item quantity="one">%d More Event</item>
+        <item quantity="other">%d More Events</item>
+    </plurals>
+</resources>

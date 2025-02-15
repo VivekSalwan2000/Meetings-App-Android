@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="4dp"
+    android:elevation="2dp"
+    android:shadowColor="@android:color/darker_gray">
+
+    <!-- Meeting Title -->
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meeting Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Meeting Time -->
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time: 10:00 AM"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Meeting Contact -->
+    <TextView
+        android:id="@+id/eventContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact: John Doe (123-456-7890)"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
+</LinearLayout>
